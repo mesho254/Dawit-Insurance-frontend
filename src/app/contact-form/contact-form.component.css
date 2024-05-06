@@ -1,0 +1,86 @@
+main {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-height: 100%;
+  }
+
+h2{
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.container {
+    padding: 40px;
+    min-height: 400px; 
+    max-height: 100%; 
+    width: 350px;
+    border: #155724 2px solid;
+    border-radius: 20px;
+    overflow-y: auto; 
+  }
+  
+  /* Styles for the form-group class */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for labels */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Styles for input fields */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    min-width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for submit button */
+  button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styles for error messages */
+  .invalid-feedback {
+    color: #dc3545;
+    margin-top: 5px;
+  }
+  
+  /* Styles for success message */
+  .alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+  }
+  
+  /* Styles for error message */
+  .alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+  }
+  
