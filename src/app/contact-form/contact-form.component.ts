@@ -33,7 +33,7 @@ export class ContactFormComponent implements OnInit {
       return;
     }
     console.log(this.contactForm.value)
-    this.http.post<any>('http://your-api-endpoint.com/contact', this.contactForm.value)
+    this.http.post<any>('http://127.0.0.1:8000/contact', this.contactForm.value)
       .subscribe(
         response => {
           this.successMessage = 'Your message has been sent successfully.';

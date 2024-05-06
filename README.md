@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
 
+
+# Running the app on localhost
+
+Go to the folder using `cd dawit-insurance-frontend`. Then run `npm install` to install dependencies. 
+
+Run `ng serve --open` to open the app on localhost.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
